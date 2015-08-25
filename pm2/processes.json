@@ -11,7 +11,7 @@
     "name": "socket-server",
     "script": "/home/partsadmin/wsExperiment/index.js",
     "args": "-d 'bromshveiger@gmail.com' --tls-accept",
-    "error_file": "/home/partsadmin/wsExperiments/error.log",
-    "out_file": "/home/partsadmin/wsExperiments/out.log"
+    "error_file": "/home/partsadmin/wsExperiment/error.log",
+    "out_file": "/home/partsadmin/wsExperiment/out.log"
   }]
 }
