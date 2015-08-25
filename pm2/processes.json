@@ -8,7 +8,16 @@
     "out_file": "/home/partsadmin/haraka-relay/out.log",
     "max-restarts": 5,
     "merge-logs": true
-    },{
+  }, {
+    "name": "haraka-acceptor",
+    "script": "/home/partsadmin/haraka-acceptor/index.js",
+    "exec-interpreter": "haraka",
+    "args": "-c /home/partsadmin/haraka-acceptor",
+    "error_file": "/home/partsadmin/haraka-acceptor/error.log",
+    "out_file": "/home/partsadmin/haraka-acceptor/out.log",
+    "max-restarts": 5,
+    "merge-logs": true
+  }, {
     "name": "socket-server",
     "script": "/home/partsadmin/wsExperiment/index.js",
     "args": "-d 'bromshveiger@gmail.com' --tls-accept",
@@ -16,14 +25,5 @@
     "out_file": "/home/partsadmin/wsExperiment/out.log",
     "max-restarts": 5,
     "merge-logs": true
-  },{
-  "name": "haraka-acceptor",
-  "script": "/home/partsadmin/haraka-acceptor/index.js",
-  "exec-interpreter": "haraka",
-  "args": "-c /home/partsadmin/haraka-acceptor",
-  "error_file": "/home/partsadmin/haraka-acceptor/error.log",
-  "out_file": "/home/partsadmin/haraka-acceptor/out.log",
-  "max-restarts": 5,
-  "merge-logs": true
   }]
 }
