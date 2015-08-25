@@ -1,7 +1,7 @@
 {
   "apps": [{
     "name": "haraka-acceptor",
-    "script": "index.js",
+    "script": "/home/partsadmin/haraka-acceptor/index.js",
     "exec-interpreter": "haraka",
     "args": "-c /home/partsadmin/haraka-acceptor",
     "error_file": "/home/partsadmin/haraka-acceptor/error.log",
@@ -9,7 +9,7 @@
     "max-restarts": 5
     },{
     "name": "socket-server",
-    "script": "/home/partsadmin/wsExperiments/index.js",
+    "script": "/home/partsadmin/wsExperiment/index.js",
     "args": "-d 'bromshveiger@gmail.com' --tls-accept",
     "error_file": "/home/partsadmin/wsExperiments/error.log",
     "out_file": "/home/partsadmin/wsExperiments/out.log"
