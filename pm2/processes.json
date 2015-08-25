@@ -1,7 +1,7 @@
 {
   "apps": [{
     "name": "haraka-acceptor",
-    "script": "",
+    "script": "index.js",
     "exec-interpreter": "haraka",
     "args": "-c /home/partsadmin/haraka-acceptor",
     "error_file": "/home/partsadmin/haraka-acceptor/error.log",
@@ -12,6 +12,6 @@
     "script": "/home/partsadmin/wsExperiments/index.js",
     "args": "-d 'bromshveiger@gmail.com' --tls-accept",
     "error_file": "/home/partsadmin/wsExperiments/error.log",
-    "out_file": "/home/partsadmin/wsExperiments/out.log"  
+    "out_file": "/home/partsadmin/wsExperiments/out.log"
   }]
 }
