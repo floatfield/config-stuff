@@ -2,7 +2,7 @@
   "apps": [{
     "name": "haraka-relay",
     "script": "/usr/lib/node_modules/Haraka/haraka.js",
-    "args": ["-c /home/partsadmin/haraka-relay"],
+    "args": ["-c", "/home/partsadmin/haraka-relay"],
     "error_file": "/home/partsadmin/haraka-relay/error.log",
     "out_file": "/home/partsadmin/haraka-relay/out.log",
     "max_restarts": 5,
