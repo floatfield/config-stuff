@@ -19,7 +19,8 @@
     "merge-logs": true
   }, {
     "name": "socket-server",
-    "script": "/home/partsadmin/wsExperiment/index.js",
+    "script": "index.js",
+    "cwd": "/home/partsadmin/wsExperiment/",
     "args": ["-d 'bromshveiger@gmail.com'", "--tls-accept"],
     "error_file": "/home/partsadmin/wsExperiment/error.log",
     "out_file": "/home/partsadmin/wsExperiment/out.log",
