@@ -1,11 +1,11 @@
 {
   "apps": [{
-    "name": "haraka-acceptor",
-    "script": "/home/partsadmin/haraka-acceptor/index.js",
+    "name": "haraka-relay",
+    "script": "/home/partsadmin/haraka-relay/index.js",
     "exec-interpreter": "haraka",
-    "args": "-c /home/partsadmin/haraka-acceptor",
-    "error_file": "/home/partsadmin/haraka-acceptor/error.log",
-    "out_file": "/home/partsadmin/haraka-acceptor/out.log",
+    "args": "-c /home/partsadmin/haraka-relay",
+    "error_file": "/home/partsadmin/haraka-relay/error.log",
+    "out_file": "/home/partsadmin/haraka-relay/out.log",
     "max-restarts": 5,
     "merge-logs": true
     },{
@@ -17,13 +17,13 @@
     "max-restarts": 5,
     "merge-logs": true
   },{
-    "name": "haraka-relay",
-    "script": "/home/partsadmin/haraka-relay/index.js",
-    "exec-interpreter": "haraka",
-    "args": "-c /home/partsadmin/haraka-relay",
-    "error_file": "/home/partsadmin/haraka-relay/error.log",
-    "out_file": "/home/partsadmin/haraka-relay/out.log",
-    "max-restarts": 5,
-    "merge-logs": true
-    }]
+  "name": "haraka-acceptor",
+  "script": "/home/partsadmin/haraka-acceptor/index.js",
+  "exec-interpreter": "haraka",
+  "args": "-c /home/partsadmin/haraka-acceptor",
+  "error_file": "/home/partsadmin/haraka-acceptor/error.log",
+  "out_file": "/home/partsadmin/haraka-acceptor/out.log",
+  "max-restarts": 5,
+  "merge-logs": true
+  }]
 }
