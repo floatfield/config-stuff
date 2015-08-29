@@ -2,6 +2,7 @@
   "apps": [{
     "name": "haraka-relay",
     "script": "haraka.js",
+    "cwd": "/home/partsadmin/haraka-relay/",
     "args": ["-c", "/home/partsadmin/haraka-relay"],
     "error_file": "/home/partsadmin/haraka-relay/error.log",
     "out_file": "/home/partsadmin/haraka-relay/out.log",
@@ -10,6 +11,7 @@
   }, {
     "name": "haraka-acceptor",
     "script": "haraka.js",
+    "cwd": "/home/partsadmin/haraka-acceptor/",
     "args": ["-c /home/partsadmin/haraka-acceptor"],
     "error_file": "/home/partsadmin/haraka-acceptor/error.log",
     "out_file": "/home/partsadmin/haraka-acceptor/out.log",
