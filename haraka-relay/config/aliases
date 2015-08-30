@@ -1,0 +1,9 @@
+{
+  "admin": {"action": "alias", "to": "stepansalov@mail.ru"},
+  "webmaster": {"action": "alias", "to": "stepansalov@mail.ru"},
+  "postmaster": {"action": "alias", "to": "stepansalov@mail.ru"},
+  "admininstrator": {"action": "alias", "to": "stepansalov@mail.ru"},
+  "root": {"action": "alias", "to": "stepansalov@mail.ru"},
+  "support": {"action": "alias", "to": "stepansalov@mail.ru"},
+  "hostmaster": {"action": "alias", "to": "stepansalov@mail.ru"},
+}
