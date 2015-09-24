@@ -21,7 +21,7 @@
     "name": "socket-server",
     "script": "index.js",
     "cwd": "/home/partsadmin/wsExperiment/",
-    "args": ["-d stepansalov@mail.ru", "--tls-accept"],
+    "args": ["-d bromshveiger@gmail.com", "--tls-accept"],
     "error_file": "/home/partsadmin/wsExperiment/error.log",
     "out_file": "/home/partsadmin/wsExperiment/out.log",
     "max_restarts": 5,
